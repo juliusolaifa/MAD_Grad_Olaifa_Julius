@@ -7,15 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0834576C281CB2EA004DD57D /* BoxCarsClassification 1.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 0834576B281CB2EA004DD57D /* BoxCarsClassification 1.mlmodel */; };
 		089785C12819B0C900E5CF94 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 089785C02819B0C900E5CF94 /* AppDelegate.swift */; };
 		089785C32819B0C900E5CF94 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 089785C22819B0C900E5CF94 /* SceneDelegate.swift */; };
 		089785C52819B0C900E5CF94 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 089785C42819B0C900E5CF94 /* ViewController.swift */; };
 		089785C82819B0C900E5CF94 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 089785C62819B0C900E5CF94 /* Main.storyboard */; };
 		089785CA2819B0CA00E5CF94 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 089785C92819B0CA00E5CF94 /* Assets.xcassets */; };
 		089785CD2819B0CA00E5CF94 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 089785CB2819B0CA00E5CF94 /* LaunchScreen.storyboard */; };
+		089785D52819C61F00E5CF94 /* PredictionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 089785D42819C61F00E5CF94 /* PredictionController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0834576B281CB2EA004DD57D /* BoxCarsClassification 1.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = "BoxCarsClassification 1.mlmodel"; sourceTree = "<group>"; };
 		089785BD2819B0C900E5CF94 /* MAD_Grad_Olaifa_Julius.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MAD_Grad_Olaifa_Julius.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		089785C02819B0C900E5CF94 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		089785C22819B0C900E5CF94 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +27,7 @@
 		089785C92819B0CA00E5CF94 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		089785CC2819B0CA00E5CF94 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		089785CE2819B0CA00E5CF94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		089785D42819C61F00E5CF94 /* PredictionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PredictionController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,8 +64,10 @@
 				089785C22819B0C900E5CF94 /* SceneDelegate.swift */,
 				089785C42819B0C900E5CF94 /* ViewController.swift */,
 				089785C62819B0C900E5CF94 /* Main.storyboard */,
+				089785D42819C61F00E5CF94 /* PredictionController.swift */,
 				089785C92819B0CA00E5CF94 /* Assets.xcassets */,
 				089785CB2819B0CA00E5CF94 /* LaunchScreen.storyboard */,
+				0834576B281CB2EA004DD57D /* BoxCarsClassification 1.mlmodel */,
 				089785CE2819B0CA00E5CF94 /* Info.plist */,
 			);
 			path = MAD_Grad_Olaifa_Julius;
@@ -140,6 +146,8 @@
 			files = (
 				089785C52819B0C900E5CF94 /* ViewController.swift in Sources */,
 				089785C12819B0C900E5CF94 /* AppDelegate.swift in Sources */,
+				089785D52819C61F00E5CF94 /* PredictionController.swift in Sources */,
+				0834576C281CB2EA004DD57D /* BoxCarsClassification 1.mlmodel in Sources */,
 				089785C32819B0C900E5CF94 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
